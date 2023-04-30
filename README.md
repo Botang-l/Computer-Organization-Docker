@@ -1,4 +1,5 @@
-# PlayLab Docker Base
+# Computer Organization Docker
+
 
 ## Table of Contents
 - [Host 檔案架構](#host-檔案架構)
@@ -11,7 +12,7 @@
 
 ## Host 檔案架構
 ```bash
-PlayLab Docker Base
+Computer-Organization-Docker
     ├── env_setup.sh            # environment variables
     ├── run.sh                  # environment setup script
     ├── run-docker.sh           # docker run script without nginx
@@ -21,10 +22,8 @@ PlayLab Docker Base
     │   ├── requirements.txt    # python module list
     │   ├── uWSGI.ini
     │   ├── nginx.conf
-    │   ├── ngrok               # version 2.3.40
     │   └── start.sh            # container entrypoint
     ├── projects/               # projects repos without flask
-    └── www/                    # flask project repo
 ```
 
 
@@ -35,23 +34,6 @@ workspace/
 ```
 
 
-## 環境設定參數
-```bash
-# personal settings
-GIT_NAME="Haouo"
-GIT_EMAIL=e24096409@gs.ncku.edu.tw
-GITLAB_LOGIN=Haouo
-
-# docker configuration
-COURSE=computer-organization
-
-# project parameters, must be consistent with gitlab URLs
-COURSE_GITLAB="aias-spring-2023"
-
-# normal project list
-PROJECT=""
-
-```
 
 
 ## Python Module List
